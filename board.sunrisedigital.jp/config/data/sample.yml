@@ -3,7 +3,7 @@ models:
     Insert:
       account_sunrise:
         login_id:     sunrise
-        raw_password: sunrise5963
+        raw_password: sunrisesunrise
         name:         サンライズ
 
   Bd_Orm_Main_Genre:
