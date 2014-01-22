@@ -1,4 +1,4 @@
-404Error<br />
+<h1>404Error</h1>
 {$message}<br />
 Module:{$module}<br />
 Controller:{$controller}<br />
