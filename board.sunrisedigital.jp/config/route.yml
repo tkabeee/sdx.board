@@ -33,3 +33,10 @@ routes:
       module:      default
       controller:  account
       action:      index
+
+  control_default:
+    route:         /control/:action
+    defaults:
+      module:      default
+      controller:  control
+      action:      index
