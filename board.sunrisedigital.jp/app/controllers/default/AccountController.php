@@ -99,13 +99,13 @@ class AccountController extends Sdx_Controller_Action_Http
                 }
                 else
                 {
-                    $db->rollback();
+                    $db->rollBack();
                 }
 
             }
             catch (Exception $e)
             {
-                $db->rollback();
+                $db->rollBack();
                 throw $e;
             }
         }
